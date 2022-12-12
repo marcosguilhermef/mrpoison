@@ -1,0 +1,13 @@
+.index-list{
+    background-color: #fff;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.options{
+    display: inline;
+}
+.oprions-icon{
+    cursor: pointer;
+}

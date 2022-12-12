@@ -16,3 +16,5 @@ use Inertia\Inertia;
 Route::get('/',[ App\Http\Controllers\Home\Home::class, 'index' ]);
 Route::get('/remove',[ App\Http\Controllers\Remove\Remove::class, 'index' ]);
 Route::get('/download',[ App\Http\Controllers\Download\Download::class, 'index' ]);
+Route::get('/upload',[ App\Http\Controllers\Upload\Upload::class, 'index' ]);
+Route::post('/upload',[ App\Http\Controllers\Upload\Upload::class, 'store' ]);

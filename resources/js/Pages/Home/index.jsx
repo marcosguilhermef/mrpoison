@@ -48,7 +48,7 @@ const Index = (props) => {
                                     </td>
                                     <td>
                                     {
-                                        dateFormat(e?.last_modified*1000, "h:MM:ss dd-mm-yyyy")
+                                        dateFormat(e?.last_modified*1000, "H:MM:ss dd-mm-yyyy")
                                     }
                                     </td>
                                     <td>
